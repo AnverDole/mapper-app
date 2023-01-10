@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/drawable-night/ic_mapper.xml" value="0.2115" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.2005" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/drawable/ic_logo_icon.xml" value="0.2115" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/drawable/ic_mapper-night.xml" value="0.1205" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/drawable/ic_mapper.xml" value="0.1215" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/drawable/tex_badge.xml" value="0.2115" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/font/roboto_condensed.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/font/roboto_condensed_bold_italic.xml" value="0.23020833333333332" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_change_password.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_edit_module.xml" value="0.16757246376811594" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_index.xml" value="0.18" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_index_content.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_modules.xml" value="0.25" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_new_module.xml" value="0.25" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_new_subject.xml" value="0.18" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_reset_password_step1.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_reset_password_step2.xml" value="0.17155756207674944" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_reset_password_step3.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_sign_up.xml" value="0.21618282890673254" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_subjects.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/activity_test.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/app_bar_index.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/app_bar_subjects.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/content_edit_subject.xml" value="0.1" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/content_index.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/content_subjects.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/content_test.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/delete_module_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/delete_subject_dialog.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/fragment_account_management.xml" value="0.22" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/fragment_gallery.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/fragment_home.xml" value="0.185" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/fragment_schedule.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/fragment_settings.xml" value="0.22" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/fragment_subjects.xml" value="0.11403508771929824" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/index_main_content.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/index_nav_header.xml" value="0.67" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/logout_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/module_card.xml" value="0.19574468085106383" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/module_selected_bottom_sheet.xml" value="0.21" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/nav_header_index.xml" value="0.25" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/nav_header_subjects.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/nav_header_test.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/processing_dialog.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/sample_logout_dialog.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/subject_card.xml" value="0.33" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/layout/subject_selected_bottom_sheet.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/activity_index_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/activity_index_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/activity_test_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/index.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/index_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/subjects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Anver Dole/AndroidStudioProjects/mapper/app/src/main/res/menu/test.xml" value="0.1" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.165" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/clickable_card_bg.xml" value="0.2555" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/ic_arrow_left.xml" value="0.165" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/ic_arrows_rotate.xml" value="0.165" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/ic_calendar_day.xml" value="0.165" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/ic_check_to_slot.xml" value="0.165" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/ic_dots_vertical.xml" value="0.165" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/ic_ellipsis_vertical.xml" value="0.165" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/selectable_tex_badge.xml" value="0.2555" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/tex_badge.xml" value="0.2555" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/drawable/toggle_check_btn.xml" value="0.164" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/activity_edit_module.xml" value="0.15572916666666667" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/activity_edit_schedule_slot.xml" value="0.2477355072463768" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/activity_edit_subject.xml" value="0.25" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/activity_index.xml" value="0.25" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/activity_main.xml" value="0.22554347826086957" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/activity_module.xml" value="0.2983050847457627" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/activity_modules.xml" value="0.4" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/activity_new_module.xml" value="0.25" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/content_index.xml" value="0.22554347826086957" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/delete_module_dialog.xml" value="0.22552083333333334" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/fragment_home.xml" value="0.152" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/fragment_schedule.xml" value="0.16796875" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/fragment_settings.xml" value="0.4" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/fragment_subjects.xml" value="0.18432971014492755" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/generate_schedule_module_dialog.xml" value="0.22552083333333334" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/index_main_content.xml" value="0.25" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/module__slot_card.xml" value="0.2" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/module_card.xml" value="0.6" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/module_slot_card.xml" value="0.536" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/processing_dialog.xml" value="0.22554347826086957" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/schedule_selected_bottom_sheet.xml" value="0.6" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/schedule_slot_card.xml" value="0.536" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/subject_card.xml" value="0.536" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/subject_card_home.xml" value="0.25" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/layout/subject_selected_bottom_sheet.xml" value="0.22554347826086957" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/menu/activity_index_drawer.xml" value="0.1" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/menu/activity_index_menu.xml" value="0.25" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/menu/schedule_menu.xml" value="0.25" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/xml/authenticator.xml" value="0.2477355072463768" />
+        <entry key="..\:/proj-mapper/mapper-android/app/src/main/res/xml/sync.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

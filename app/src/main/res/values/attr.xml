@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Your View -->
+    <declare-styleable name="HorizontalDottedProgress">
+        <attr name="circleColor" format="color" />
+    </declare-styleable>
+
+    <attr name="themeBackground" format="color" />
+
+</resources>

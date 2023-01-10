@@ -1,0 +1,113 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:background="@drawable/clickable_card_bg"
+    android:backgroundTint="?attr/cardBackgroundColor"
+    android:elevation="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            style="opacity">
+
+
+            <TextView
+                android:id="@+id/no_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                tools:text="01"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/subject_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@+id/no_txt"
+                android:textSize="12sp"
+                tools:text="Subject name" />
+
+            <ImageButton
+                android:id="@+id/menu_btn"
+                style="?android:attr/actionOverflowButtonStyle"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignTop="@+id/duration_txt"
+
+                android:layout_alignBottom="@+id/duration_txt"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="-10dp"
+                android:contentDescription="actions"
+                android:minHeight="48dp"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/prioritisation_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subject_name_txt"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/no_txt"
+                android:background="@drawable/tex_badge"
+                android:backgroundTint="?attr/colorSecondary"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/black_lighter"
+                android:textSize="12sp"
+                tools:text="High Priority" />
+
+
+            <ImageView
+                android:id="@+id/duration_prioritization_splitter"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignTop="@+id/prioritisation_txt"
+                android:layout_alignBottom="@+id/prioritisation_txt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@+id/prioritisation_txt"
+                android:src="@drawable/ic_circle"
+                app:tint="@color/green_700"
+                android:contentDescription="Circle" />
+
+
+            <TextView
+                android:id="@+id/duration_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/prioritisation_txt"
+                android:layout_alignBottom="@+id/prioritisation_txt"
+                android:layout_toEndOf="@+id/duration_prioritization_splitter"
+                tools:text="10 hours"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/module_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prioritisation_txt"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toStartOf="@+id/menu_btn"
+                android:layout_toEndOf="@+id/no_txt"
+                tools:text="Module Name" />
+
+        </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When selected, use tic -->
+    <item android:tint="@color/green_700" android:state_checked="true" >
+    </item>
+    <!-- When not selected, use un tic-->
+    <item android:tint="@color/gray_600" android:state_checked="false">
+    </item>
+
+</selector>

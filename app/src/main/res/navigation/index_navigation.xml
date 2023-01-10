@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mapper.activities.ui.home.HomeFragment"
+        android:label="@string/activity_main_drawer_menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_subject"
+            app:destination="@id/nav_subject" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_subject"
+        android:name="com.example.mapper.activities.ui.subjects.SubjectsFragment"
+        android:label="@string/activity_main_drawer_menu_subjects"
+        tools:layout="@layout/fragment_subjects" />
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.mapper.activities.ui.schedule.ScheduleFragment"
+        android:label="@string/activity_main_drawer_menu_schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.mapper.activities.ui.settings.SettingsFragment"
+        android:label="@string/activity_main_drawer_menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_account_management"
+        android:name="com.example.mapper.activities.ui.accountmanamgement.AccountManagementFragment"
+        android:label="@string/activity_main_drawer_menu_account_management"
+        tools:layout="@layout/fragment_account_management" />
+
+
+</navigation>

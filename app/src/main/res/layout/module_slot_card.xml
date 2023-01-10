@@ -1,0 +1,151 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clickable_card_bg"
+    android:backgroundTint="?attr/cardBackgroundColor"
+    android:paddingStart="20dp"
+    android:paddingTop="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="20dp"
+    android:layout_marginBottom="20dp"
+    android:elevation="5dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/phase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Phase 01" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="-10dp"
+        android:layout_weight="1">
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/is_finished_swt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schedule_end"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finished" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/schedule_start_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phase"
+        android:layout_alignStart="@+id/phase"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:text="Date" />
+
+    <LinearLayout
+        android:id="@+id/schedule_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schedule_start_lbl"
+        android:layout_alignStart="@+id/schedule_start_lbl"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_calendar_day"
+            app:tint="@color/green_700"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020-02-03" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/schedule_end_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schedule_date"
+        android:layout_marginTop="20dp"
+        android:text="Activity Start" />
+
+    <TextView
+        android:id="@+id/end_time_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schedule_date"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/schedule_end_lbl"
+        android:text="Activity End" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schedule_end_lbl"
+        android:layout_alignStart="@+id/schedule_end_lbl"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_hourglass_start"
+            app:tint="@color/green_700"/>
+
+        <TextView
+            android:id="@+id/start_time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:00 AM" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schedule_end_lbl"
+        android:layout_alignStart="@+id/end_time_lbl"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_hourglass_end"
+            app:tint="@color/green_700" />
+
+        <TextView
+            android:id="@+id/end_time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:00 AM" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

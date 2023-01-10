@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Mapper" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_700</item>
+        <item name="colorPrimaryVariant">@color/green_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">?attr/colorPrimaryVariant</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_700</item>
+        <item name="colorSecondaryVariant">@color/blue_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="cardBackgroundColor">@color/white_darker</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="fontFamily">@font/roboto_condensed_regular</item>
+
+        <item name="android:textColor">@color/black_lighter</item>
+
+    </style>
+
+    <style name="Theme.Mapper.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Mapper.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Mapper.TransparentButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/black</item>
+        <item name="iconTint">@color/black</item>
+    </style>
+
+    <style name="Theme.Mapper.FloatingActionButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:backgroundTint">@color/blue_700</item>
+    </style>
+
+    <style name="Theme.Mapper.BottomSheet" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="android:backgroundTint">@color/black_lighter</item>
+    </style>
+    <style name="Theme.Mapper.BottomSheet.Item" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="android:textColor">@color/white_darker</item>
+        <item name="tint">@color/white_darker</item>
+    </style>
+
+
+
+    <style name="Theme.Mapper.NoActionBar.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Mapper.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <style name="ImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.Mapper.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
